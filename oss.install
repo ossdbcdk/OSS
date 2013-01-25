@@ -1,0 +1,99 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function oss_install() {
+  // Enable some standard blocks.
+  // Default theme is Bartik in D7
+  $oss_theme = 'bartik';
+
+  $values = array(
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $oss_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+      'title' => '',
+    ),
+    array(
+      'module' => 'locale',
+      'delta' => 'language',
+      'theme' => $oss_theme,
+      'status' => 1,
+      'weight' => 1,
+      'region' => 'header',
+      'pages' => '',
+      'cache' => -1,
+      'title' => '<none>',
+    ),
+    array(
+      'module' => 'search',
+      'delta' => 'form',
+      'theme' => $oss_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'highlighted',
+      'pages' => '',
+      'cache' => -1,
+      'title' => '',
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => $oss_theme,
+      'status' => 1,
+      'weight' => 1,
+      'region' => 'sidebar_second',
+      'pages' => '',
+      'cache' => -1,
+      'title' => '<none>',
+    ),
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache', 'title'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
+  // Enable default permissions for system roles.
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'search content'));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'search content'));
+
+  // Create a default role for site administrators, with all available permissions assigned.
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 2;
+  user_role_save($admin_role);
+  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+  // Set this as the administrator role.
+  variable_set('user_admin_role', $admin_role->rid);
+
+  // Assign user 1 the "administrator" role.
+  db_insert('users_roles')
+    ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
+    ->execute();
+
+  // Enable the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'seven')
+    ->execute();
+  variable_set('admin_theme', 'seven');
+  variable_set('node_admin_theme', '1');
+
+  // Set default source language for i18n module
+  variable_set('i18n_string_source_language', 'en');
+
+  // Disable configurable timezones for users
+  variable_set('configurable_timezones', 0);
+
+}
+
