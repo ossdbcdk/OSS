@@ -97,5 +97,5 @@ function _oss_remove_form_requirements(&$value, $key) {
   if ($key === '#required') {
     $value = FALSE;
   }
-}Â
+}
 
