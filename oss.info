@@ -1,0 +1,19 @@
+name              = "OSS"
+description       = "Install the OSS based website."
+version           = "7.x-0.1"
+core              = "7.x"
+distribution_name = "OSS"
+
+dependencies[]    = "block"
+dependencies[]    = "contextual"
+dependencies[]    = "menu"
+dependencies[]    = "dblog"
+dependencies[]    = "shortcut"
+dependencies[]    = "toolbar"
+dependencies[]    = "overlay"
+dependencies[]    = "color"
+dependencies[]    = "translation"
+dependencies[]    = "search"
+
+files[]           = "oss.profile"
+
