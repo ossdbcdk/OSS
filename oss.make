@@ -40,10 +40,6 @@ projects[entity][type]    = "module"
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = "1.0"
 
-projects[entity_token][type]    = "module"
-projects[entity_token][subdir]  = "contrib"
-projects[entity_token][version] = "1.0"
-
 projects[tagclouds][type]    = "module"
 projects[tagclouds][subdir]  = "contrib"
 projects[tagclouds][version] = "1.7"
