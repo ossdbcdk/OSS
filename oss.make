@@ -56,3 +56,6 @@ projects[custom_search][type]    = "module"
 projects[custom_search][subdir]  = "contrib"
 projects[custom_search][version] = "1.11"
 
+projects[views][type]    = "module"
+projects[views][subdir]  = "contrib"
+projects[views][version] = "3.5"
