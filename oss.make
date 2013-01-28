@@ -60,6 +60,10 @@ projects[views][type]    = "module"
 projects[views][subdir]  = "contrib"
 projects[views][version] = "3.5"
 
+projects[ctools][type]    = "module"
+projects[ctools][subdir]  = "contrib"
+projects[ctools][version] = "1.2"
+
 projects[bootstrap][type]    = "theme"
 projects[bootstrap][version] = "2.0-beta2"
 
