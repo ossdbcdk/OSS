@@ -32,6 +32,14 @@ projects[mailchimp][type]    = "module"
 projects[mailchimp][subdir]  = "contrib"
 projects[mailchimp][version] = "2.9"
 
+projects[libraries][type]    = "module"
+projects[libraries][subdir]  = "contrib"
+projects[libraries][version] = "2.0"
+
+projects[entity][type]    = "module"
+projects[entity][subdir]  = "contrib"
+projects[entity][version] = "1.0"
+
 projects[tagclouds][type]    = "module"
 projects[tagclouds][subdir]  = "contrib"
 projects[tagclouds][version] = "1.7"
@@ -56,3 +64,17 @@ projects[custom_search][type]    = "module"
 projects[custom_search][subdir]  = "contrib"
 projects[custom_search][version] = "1.11"
 
+projects[views][type]    = "module"
+projects[views][subdir]  = "contrib"
+projects[views][version] = "3.5"
+
+projects[ctools][type]    = "module"
+projects[ctools][subdir]  = "contrib"
+projects[ctools][version] = "1.2"
+
+projects[bootstrap][type]    = "theme"
+projects[bootstrap][version] = "2.0-beta2"
+
+projects[taxonomy_menu][type]    = "module"
+projects[taxonomy_menu][subdir]  = "contrib"
+projects[taxonomy_menu][version] = "1.4"
