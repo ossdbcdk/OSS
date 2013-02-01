@@ -82,5 +82,3 @@ projects[taxonomy_menu][version] = "1.4"
 projects[panels][type]    = "module"
 projects[panels][subdir]  = "contrib"
 projects[panels][version] = "3.3"
-
-
