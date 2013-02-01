@@ -78,3 +78,9 @@ projects[bootstrap][version] = "2.0-beta2"
 projects[taxonomy_menu][type]    = "module"
 projects[taxonomy_menu][subdir]  = "contrib"
 projects[taxonomy_menu][version] = "1.4"
+
+projects[panels][type]    = "module"
+projects[panels][subdir]  = "contrib"
+projects[panels][version] = "3.3"
+
+
