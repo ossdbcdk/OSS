@@ -86,3 +86,8 @@ projects[panels][version] = "3.3"
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] =  http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip
 libraries[ckeditor][destination] = libraries
+
+libraries[MailChimp][download][type] = get
+libraries[MailChimp][download][url] =  http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip
+libraries[MailChimp][destination] = libraries
+
