@@ -83,11 +83,13 @@ projects[panels][type]    = "module"
 projects[panels][subdir]  = "contrib"
 projects[panels][version] = "3.3"
 
-libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] =  http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip
-libraries[ckeditor][destination] = libraries
+libraries[ckeditor][destination]    = "libraries"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip"
 
-libraries[MailChimp][download][type] = get
-libraries[MailChimp][download][url] =  http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip
-libraries[MailChimp][destination] = libraries
+libraries[MailChimp][destination]    = "libraries"
+libraries[MailChimp][directory_name] = "mailchimp"
+libraries[MailChimp][download][type] = "get"
+libraries[MailChimp][download][url]  = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
 
