@@ -83,10 +83,13 @@ projects[panels][type]    = "module"
 projects[panels][subdir]  = "contrib"
 projects[panels][version] = "3.3"
 
-
 projects[jquery_update][type]    = "module"
 projects[jquery_update][subdir]  = "contrib"
 projects[jquery_update][version] = "2.2"
+
+projects[panels_bootstrap_layout][type]    = "module"
+projects[panels_bootstrap_layout][subdir]  = "contrib"
+projects[panels_bootstrap_layout][version] = "1.x-dev"
 
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -97,5 +100,3 @@ libraries[MailChimp][destination]    = "libraries"
 libraries[MailChimp][directory_name] = "mailchimp"
 libraries[MailChimp][download][type] = "get"
 libraries[MailChimp][download][url]  = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
->>>>>>> 843f593010e533ac164337cc12034ddcbbe0abc5
-
