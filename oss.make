@@ -87,10 +87,6 @@ projects[jquery_update][type]    = "module"
 projects[jquery_update][subdir]  = "contrib"
 projects[jquery_update][version] = "2.2"
 
-projects[panels_bootstrap_layout][type]    = "module"
-projects[panels_bootstrap_layout][subdir]  = "contrib"
-projects[panels_bootstrap_layout][version] = "1.x-dev"
-
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
