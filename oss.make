@@ -87,6 +87,11 @@ projects[jquery_update][type]    = "module"
 projects[jquery_update][subdir]  = "contrib"
 projects[jquery_update][version] = "2.2"
 
+projects[media][type] = "module"
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-unstable6"
+projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
+
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
