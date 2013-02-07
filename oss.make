@@ -94,7 +94,7 @@ projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.
 
 projects[file_entity][type] = "module"  
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable7"
+projects[file_entity][version] = "2.x-dev"
 
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
