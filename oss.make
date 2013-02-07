@@ -92,6 +92,10 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable6"
 projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
 
+projects[file_entity][type] = "module"  
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-unstable7"
+
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
