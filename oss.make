@@ -95,7 +95,7 @@ projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_standard.zip"
+libraries[ckeditor][download][url]  = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
 
 libraries[MailChimp][destination]    = "libraries"
 libraries[MailChimp][directory_name] = "mailchimp"
