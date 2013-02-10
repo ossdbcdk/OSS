@@ -32,6 +32,15 @@ projects[mailchimp][type]    = "module"
 projects[mailchimp][subdir]  = "contrib"
 projects[mailchimp][version] = "2.9"
 
+projects[webform][type]    = "module"
+projects[webform][subdir]  = "contrib"
+projects[webform][version] = "3.18"
+
+projects[webform_mailchimp][type]    = "module"
+projects[webform_mailchimp][subdir]  = "contrib"
+projects[webform_mailchimp][version] = "1.0"
+
+
 projects[libraries][type]    = "module"
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = "2.0"
