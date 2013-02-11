@@ -38,7 +38,7 @@ projects[webform][version] = "3.18"
 
 projects[webform_mailchimp][type]    = "module"
 projects[webform_mailchimp][subdir]  = "contrib"
-projects[webform_mailchimp][version] = "1.0-dev"
+projects[webform_mailchimp][version] = "1.x-dev"
 
 projects[libraries][type]    = "module"
 projects[libraries][subdir]  = "contrib"
