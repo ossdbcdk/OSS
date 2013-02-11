@@ -40,7 +40,6 @@ projects[webform_mailchimp][type]    = "module"
 projects[webform_mailchimp][subdir]  = "contrib"
 projects[webform_mailchimp][version] = "1.0-dev"
 
-
 projects[libraries][type]    = "module"
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = "2.0"
