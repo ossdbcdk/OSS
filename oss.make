@@ -38,7 +38,7 @@ projects[webform][version] = "3.18"
 
 projects[webform_mailchimp][type]    = "module"
 projects[webform_mailchimp][subdir]  = "contrib"
-projects[webform_mailchimp][version] = "1.x-dev"
+projects[webform_mailchimp][version] = "1.x-rc2"
 
 projects[libraries][type]    = "module"
 projects[libraries][subdir]  = "contrib"
@@ -99,6 +99,8 @@ projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable6"
 projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
+projects[media][patch][] = "http://drupal.org/files/1846674-media-file_entity_default_allowed_extensions-8.patch"
+
 
 projects[file_entity][type] = "module"  
 projects[file_entity][subdir] = "contrib"
