@@ -64,6 +64,10 @@ projects[yammer_feeds][type]    = "module"
 projects[yammer_feeds][subdir]  = "contrib"
 projects[yammer_feeds][version] = "1.x-dev"
 
+projects[oauth][type]    = "module"
+projects[oauth][subdir]  = "contrib"
+projects[ouath][version] = "3.1"
+
 projects[link][type]    = "module"
 projects[link][subdir]  = "contrib"
 projects[link][version] = "1.0"
@@ -98,8 +102,8 @@ projects[jquery_update][version] = "2.2"
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.2"
-;projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
-;projects[media][patch][] = "http://drupal.org/files/1846674-media-file_entity_default_allowed_extensions-8.patch"
+projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
+projects[media][patch][] = "http://drupal.org/files/1846674-media-file_entity_default_allowed_extensions-8.patch"
 
 
 projects[file_entity][type] = "module"  
