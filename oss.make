@@ -66,7 +66,7 @@ projects[yammer_feeds][version] = "1.x-dev"
 
 projects[oauth][type]    = "module"
 projects[oauth][subdir]  = "contrib"
-projects[ouath][version] = "3.1"
+projects[oauth][version] = "3.1"
 
 projects[link][type]    = "module"
 projects[link][subdir]  = "contrib"
