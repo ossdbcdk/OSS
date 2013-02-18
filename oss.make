@@ -68,6 +68,7 @@ projects[oauth][type]    = "module"
 projects[oauth][subdir]  = "contrib"
 projects[oauth][version] = "3.1"
 
+
 projects[link][type]    = "module"
 projects[link][subdir]  = "contrib"
 projects[link][version] = "1.0"
@@ -119,3 +120,8 @@ libraries[MailChimp][destination]    = "libraries"
 libraries[MailChimp][directory_name] = "mailchimp"
 libraries[MailChimp][download][type] = "get"
 libraries[MailChimp][download][url]  = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+
+libraries[yammer_feeds][destination]        = "api"
+libraries[yammer_feeds][directory_name] = "yammer_feeds"
+libraries[yammer_feeds][download][type] = "get"
+libraries[yammer_feeds][download][url]  = "http://oauth.googlecode.com/svn/code/php/OAuth.php"
