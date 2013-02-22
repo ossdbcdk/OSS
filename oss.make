@@ -116,7 +116,7 @@ projects[extlink][version] = "1.12"
 
 projects[ckeditor_link][type]    = "module"
 projects[ckeditor_link][subdir]  = "contrib"
-projects[ckeditor_link][version] = "2.23"
+projects[ckeditor_link][version] = "2.3"
 
 projects[pathauto][type]    = "module"
 projects[pathauto][subdir]  = "contrib"
