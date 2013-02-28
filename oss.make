@@ -122,6 +122,10 @@ projects[pathauto][type]    = "module"
 projects[pathauto][subdir]  = "contrib"
 projects[pathauto][version] = "1.2"
 
+projects[token][type]    = "module"
+projects[token][subdir]  = "contrib"
+projects[token][version] = "1.5"
+
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][download][type] = "get"
