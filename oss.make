@@ -136,3 +136,8 @@ libraries[yammer_feeds][destination]    = "modules/contrib/yammer_feeds/api"
 libraries[yammer_feeds][download][type] = "get"
 libraries[yammer_feeds][download][url]  = "http://oauth.googlecode.com/svn/code/php/OAuth.php"
 
+projects[oss_theme][type]             = "theme"
+projects[oss_theme][download][type]   = "git"
+projects[oss_theme][download][url]    = "git@github.com:inleadmedia/oss_theme.git"
+projects[oss_theme][download][branch] = "master"
+
