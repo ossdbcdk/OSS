@@ -30,7 +30,7 @@ projects[memcache][version] = "1.0"
 
 projects[mailchimp][type]    = "module"
 projects[mailchimp][subdir]  = "contrib"
-projects[mailchimp][version] = "2.9"
+projects[mailchimp][version] = "2.10"
 
 projects[webform][type]    = "module"
 projects[webform][subdir]  = "contrib"
@@ -58,7 +58,7 @@ projects[entity][version] = "1.0"
 
 projects[tagclouds][type]    = "module"
 projects[tagclouds][subdir]  = "contrib"
-projects[tagclouds][version] = "1.7"
+projects[tagclouds][version] = "1.9"
 
 projects[site_map][type]    = "module"
 projects[site_map][subdir]  = "contrib"
@@ -76,10 +76,9 @@ projects[oauth][type]    = "module"
 projects[oauth][subdir]  = "contrib"
 projects[oauth][version] = "3.1"
 
-
 projects[link][type]    = "module"
 projects[link][subdir]  = "contrib"
-projects[link][version] = "1.0"
+projects[link][version] = "1.1"
 
 projects[custom_search][type]    = "module"
 projects[custom_search][subdir]  = "contrib"
@@ -111,14 +110,29 @@ projects[jquery_update][version] = "2.2"
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.2"
-projects[media][patch][] = "http://drupal.org/files/1836020-check-before-drop-media-update.patch"
+;projects[media][patch][] = "http://drupal.org/files/1836020-check-before-drop-media-update.patch"
 ;projects[media][patch][] = "http://drupal.org/files/media_plugin_info-1751132-1.patch"
 ;projects[media][patch][] = "http://drupal.org/files/1846674-media-file_entity_default_allowed_extensions-8.patch"
-
 
 projects[file_entity][type] = "module"  
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.x-dev"
+
+projects[extlink][type]    = "module"
+projects[extlink][subdir]  = "contrib"
+projects[extlink][version] = "1.12"
+
+projects[ckeditor_link][type]    = "module"
+projects[ckeditor_link][subdir]  = "contrib"
+projects[ckeditor_link][version] = "2.3"
+
+projects[pathauto][type]    = "module"
+projects[pathauto][subdir]  = "contrib"
+projects[pathauto][version] = "1.2"
+
+projects[token][type]    = "module"
+projects[token][subdir]  = "contrib"
+projects[token][version] = "1.5"
 
 libraries[ckeditor][destination]    = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -133,3 +147,9 @@ libraries[MailChimp][download][url]  = "http://apidocs.mailchimp.com/api/downloa
 libraries[yammer_feeds][destination]    = "modules/contrib/yammer_feeds/api"
 libraries[yammer_feeds][download][type] = "get"
 libraries[yammer_feeds][download][url]  = "http://oauth.googlecode.com/svn/code/php/OAuth.php"
+
+projects[oss_theme][type]             = "theme"
+projects[oss_theme][download][type]   = "git"
+projects[oss_theme][download][url]    = "git@github.com:inleadmedia/oss_theme.git"
+projects[oss_theme][download][branch] = "master"
+
