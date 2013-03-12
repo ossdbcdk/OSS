@@ -44,6 +44,15 @@ projects[libraries][type]    = "module"
 projects[libraries][subdir]  = "contrib"
 projects[libraries][version] = "2.0"
 
+projects[i18n][type]    = "module"
+projects[i18n][subdir]  = "contrib"
+projects[i18n][version] = "1.8"
+
+projects[variable][type]    = "module"
+projects[variable][subdir]  = "contrib"
+projects[variable][version] = "2.2"
+
+
 projects[entity][type]    = "module"
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = "1.0"
