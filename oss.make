@@ -52,7 +52,6 @@ projects[variable][type]    = "module"
 projects[variable][subdir]  = "contrib"
 projects[variable][version] = "2.2"
 
-
 projects[entity][type]    = "module"
 projects[entity][subdir]  = "contrib"
 projects[entity][version] = "1.0"
